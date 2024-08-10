@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Tate Beasley">
+    <meta name="description" content="Hidden Valley Ranch">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Hidden Valley Ranch</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Lato:wght@400;700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Seymour+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Hidden Valley Ranch</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Accommodations">Content</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img src="images/swiss-valley.jpg"
+                alt="Hills of evergreen trees frame a winding blue river while snowy peaks rise in the distance."
+                width="1440" height="560">
+        </div>
+    </header>
+    <main>
+        <section id="contact">
+            <section id="contact-us">
+                <div>
+                <h2>Contact Us</h2>
+                </div>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation
+                    with us! Required fields marked with a *</p>
+                <div>
+                    <img src="images/swiss-peak.jpg"
+                        alt="A winding blue river disappears into the horizon, framed by evergreens as a massive snowy peak rises in the distance."
+                        width="350" height="455">
+                </div>
+            </section>
+            <section id="form">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div>
+                            <label for="full-name">Full Name:</label>
+                            <input type="text" id="full-name" name="full-name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <fieldset>
+                            <legend>Preferred Contact Method:</legend>
+                            <div>
+                                
+                                <input type="radio" id="contact-phone" name="contact-method" checked>
+                                <label for="contact-phone">Phone</label>
+                            
+                            
+                                
+                                <input type="radio" id="contact-email" name="contact-method">
+                                <label for="contact-email">Email</label>
+                            </div>
+                        </fieldset>
+                        <div>
+                            <label for="comments">Comments:</label>
+                            <textarea id="comments" name="comments" rows="4" required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright ©2024 - Hidden Valley Ranch</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+
+</html>
